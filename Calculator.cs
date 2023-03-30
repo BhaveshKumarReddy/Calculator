@@ -8,6 +8,10 @@ namespace Calculator
 {
     class Calculator
     {
+        public int Subtract(int first, int second)
+        {
+            return Sub.sub(first, second);
+        }
 
     }
 }
