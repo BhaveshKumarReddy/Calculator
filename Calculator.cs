@@ -17,5 +17,15 @@ namespace Calculator
             return Add.add(first, second);
         }
 
+        public int Division(int first, int second)
+        {
+            return Div.div(first, second);
+        }
+
+        public int Multiplication(int first, int second)
+        {
+            return Multiply.mul(first, second);
+        }
+
     }
 }
