@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Calculator
+    public class Calculator
     {
+        public int Addition(int first,int second)
+        {
+            return Add.add(first, second);
+        }
 
     }
 }
