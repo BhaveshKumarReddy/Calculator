@@ -8,6 +8,7 @@ namespace Calculator
 {
     class Div
     {
+        //ok
         static public int div(int first, int second)
         {
             return first / second;
